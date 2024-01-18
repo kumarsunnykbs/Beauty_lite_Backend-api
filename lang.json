@@ -1,0 +1,488 @@
+{
+  "sucess": {
+    "en": "Success",
+    "ja": "成功",
+    "zh-CN": "成功",
+    "fr": "Le succès",
+    "ko": "성공",
+    "pt": "sucesso",
+    "es": "éxito"
+  },
+  "regsuccess": {
+    "en": "You have successfully signed up, please verify your email.",
+    "ja": "正常にサインアップしました。メールアドレスを確認してください。",
+    "zh-CN": "您已成功注册，请验证您的电子邮件。",
+    "fr": "Vous vous êtes inscrit avec succès, veuillez vérifier votre email.",
+    "ko": "성공적으로 가입 하셨으므로 이메일을 확인하십시오.",
+    "pt": "Você se inscreveu com sucesso, verifique seu e-mail.",
+    "es": "Se ha registrado correctamente, por favor verifique su correo electrónico."
+  },
+  "invalid": {
+    "en": "Invalid password!Please try again",
+    "ja": "無効なパスワードです！もう一度やり直してください",
+    "zh-CN": "密码无效！请重试",
+    "fr": "Mot de passe invalide, réessayez",
+    "ko": "잘못된 암호입니다! 다시 시도하십시오.",
+    "pt": "Senha inválida, por favor tente novamente",
+    "es": "Contraseña no válida, por favor vuelva a intentarlo"
+  },
+  "verify": {
+    "en": "Please verify your email",
+    "ja": "メールアドレスを確認してください",
+    "zh-CN": "请验证您的电子邮件",
+    "fr": "S'il vous plaît vérifier votre email",
+    "ko": "이메일을 확인하십시오.",
+    "pt": "Por favor, verifique seu email",
+    "es": "Por favor verifica tu email"
+  },
+  "email": {
+    "en":"Invalid Email! Please try again", 
+    "ja": "無効なメールです。 もう一度やり直してください",
+    "zh-CN": "不合规电邮！ 请再试一次",
+    "fr": "Email invalide! Veuillez réessayer",
+    "ko": "이메일이 잘못되었습니다! 다시 시도하십시오.",
+    "pt": "E-mail inválido! Por favor, tente novamente",
+    "es": "Email inválido ! Inténtalo de nuevo"
+  },
+  "deactivated": {
+    "en":"Your account has been deactivated!! Please send account activation request on info@uzyth.com",
+    "ja": "あなたのアカウントが無効になっています ！！ にアカウントの有効化リクエストを送信してください  info@uzyth.com",
+    "zh-CN": "您的帐户已停用!! 请发送帐户激活请求 info@uzyth.com",
+    "fr": "Votre compte a été désactivé !! S'il vous plaît envoyer une demande d'activation de compte sur info@uzyth.com",
+    "ko": "당신의 계정이 비활성화되었습니다 !! 에 계정 활성화 요청을 보내주십시오. info@uzyth.com",
+    "pt": "Sua conta foi desativada!! Por favor, envie um pedido de ativação de conta info@uzyth.com",
+    "es": "Tu cuenta ha sido desactivada!! Por favor envíe la solicitud de activación de cuenta en info@uzyth.com"
+  },
+  "existemail": {
+    "en":"Username/email already exist",
+    "ja": "ユーザー名/ Eメールアドレスは既に存在します",
+    "zh-CN": "用户名/电子邮件已存在",
+    "fr": "Le nom d'utilisateur / email existe déjà",
+    "ko": "사용자 이름 / 이메일이 이미 존재합니다.",
+    "pt": "Nome de usuário / email já existe",
+    "es": "Usuario / email ya existe"
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "スポンサー名が必要です",
+    "zh-CN": "需要赞助商名称",
+    "fr": "Nom du sponsor requis",
+    "ko": "스폰서 이름 필요",
+    "pt": "Nome do patrocinador requerido",
+    "es": "Nombre del patrocinador requerido"
+  },
+   "sponsorInvalid": {
+    "en":"Invalid sponsor name",
+    "ja": "無効なスポンサー名",
+    "zh-CN": "赞助商名称无效",
+    "fr": "Nom du sponsor invalide",
+    "ko": "잘못된 스폰서 이름",
+    "pt": "Nome do patrocinador inválido",
+    "es": "Nombre de patrocinador no válido"
+  },
+   "SecuritySuccess": {
+    "en":"Security Question Updated Successfully",
+    "ja": "セキュリティの質問が更新されました",
+    "zh-CN": "安全问题已成功更新",
+    "fr": "Question de sécurité mise à jour avec succès",
+    "ko": "보안 질문이 성공적으로 업데이트되었습니다.",
+    "pt": "Pergunta de segurança atualizada com sucesso",
+    "es": "Pregunta de seguridad actualizada con éxito"
+  },
+  "mailsent": {
+    "en":"Mail Sent successfully!!",
+    "ja": "メール送信成功",
+    "zh-CN": "邮件已成功发送",
+    "fr": "Mail envoyé avec succès",
+    "ko": "메일이 성공적으로 전송되었습니다.",
+    "pt": "Correio enviado com sucesso",
+    "es": "El correo enviado con éxito"
+  },
+   "invalidsrcode": {
+    "en":"Invalid Security Code",
+    "ja": "無効なセキュリティコード",
+    "zh-CN": "无效的安全码",
+    "fr": "Code de sécurité invalide",
+    "ko": "유효하지 않은 보안 코드",
+    "pt": "Código de segurança inválido",
+    "es": "Código de seguridad invalido"
+  },
+   "allrequired": {
+    "en":"All field required",
+    "ja": "全フィールド必須",
+    "zh-CN": "所有领域都需要",
+    "fr": "Tous les champs requis",
+    "ko": "필요한 모든 필드",
+    "pt": "Todo o campo requerido",
+    "es": "Todo el campo requerido"
+  },
+   "invaliduser": {
+    "en":"Invalid User ID",
+    "ja": "無効なユーザー",
+    "zh-CN": "无效的用户",
+    "fr": "Utilisateur invalide",
+    "ko": "잘못된 사용자",
+    "pt": "Usuário Inválido",
+    "es": "Usuario invalido"
+  },
+   "disableques": {
+    "en":"Security Question Disable Successfully",
+    "ja": "セキュリティの質問が無効になりました",
+    "zh-CN": "安全问题禁用成功",
+    "fr": "Question de sécurité désactivée avec succès",
+    "ko": "보안 질문 사용 안 함",
+    "pt": "Pergunta de segurança desativar com êxito",
+    "es": "Pregunta de seguridad Deshabilitar con éxito"
+  },
+   "reqsent": {
+    "en":"Request sent Successfully",
+    "ja": "リクエストは正常に送信されました",
+    "zh-CN": "请求已成功发送",
+    "fr": "Demande envoyée avec succès",
+    "ko": "요청이 성공적으로 전송되었습니다.",
+    "pt": "Pedido enviado com sucesso",
+    "es": "Solicitud enviada exitosamente"
+  },
+   "acceptreq": {
+    "en":"Please accept the request",
+    "ja": "要求を受け入れてください",
+    "zh-CN": "请接受请求",
+    "fr": "S'il vous plaît accepter la demande",
+    "ko": "요청을 수락하십시오.",
+    "pt": "Por favor aceite o pedido",
+    "es": "Por favor acepte la solicitud"
+  },
+   "alreadysent": {
+    "en":"Request already sent",
+    "ja": "リクエストは送信済み",
+    "zh-CN": "请求已发送",
+    "fr": "Demande déjà envoyée",
+    "ko": "이미 보낸 요청",
+    "pt": "Solicitação já enviada",
+    "es": "Solicitud ya enviada"
+  },
+   "acceptreqsuccess": {
+    "en":"Request Accepted Successfully",
+    "ja": "正常に受け入れられた要求",
+    "zh-CN": "请求已成功接受",
+    "fr": "Demande acceptée avec succès",
+    "ko": "요청이 성공적으로 수락 됨",
+    "pt": "Solicitação aceita com sucesso",
+    "es": "Solicitud aceptada con éxito"
+  },
+   "reqnotfound": {
+    "en":"Friend request not found",
+    "ja": "友達リクエストが見つかりません",
+    "zh-CN": "未找到朋友请求",
+    "fr": "Demande d'ami non trouvée",
+    "ko": "친구 요청을 찾을 수 없습니다.",
+    "pt": "Pedido de amizade não encontrado",
+    "es": "Solicitud de amistad no encontrada"
+  },
+   "personalinfo": {
+    "en":"Personal Information updated Successfully",
+    "ja": "個人情報を更新しました",
+    "zh-CN": "个人信息已成功更新",
+    "fr": "Informations personnelles mises à jour avec succès",
+    "ko": "개인 정보가 성공적으로 업데이트되었습니다.",
+    "pt": "Informações pessoais atualizadas com sucesso",
+    "es": "Información personal actualizada con éxito"
+  },
+   "updatepassucess": {
+    "en":"Password Updated Successfully",
+    "ja": "パスワードが正常に更新された",
+    "zh-CN": "密码已成功更新",
+    "fr": "Mot de passe mis à jour avec succès",
+    "ko": "암호가 성공적으로 업데이트되었습니다.",
+    "pt": "Senha atualizada com sucesso",
+    "es": "Contraseña actualizada exitosamente"
+  },
+   "wrongcurrentpass": {
+    "en":"Current password is wrong",
+    "ja": "現在のパスワードが間違っています",
+    "zh-CN": "当前密码错误",
+    "fr": "Le mot de passe actuel est incorrect",
+    "ko": "현재 비밀번호가 잘못되었습니다.",
+    "pt": "A senha atual está errada",
+    "es": "La contraseña actual es incorrecta"
+  },
+   "passwordnotmatch": {
+    "en":"Password does not match",
+    "ja": "パスワードが一致しません",
+    "zh-CN": "密码不匹配",
+    "fr": "Le mot de passe ne correspond pas",
+    "ko": "비밀번호가 일치하지 않습니다",
+    "pt": "Senha não corresponde",
+    "es": "Las contraseñas no coinciden"
+  },
+   "forgetlinkexp": {
+    "en":"Forgotten Password link expired",
+    "ja": "パスワードを忘れた場合のリンクの有効期限が切れました",
+    "zh-CN": "忘记密码链接已过期",
+    "fr": "Le lien de mot de passe oublié a expiré",
+    "ko": "잊어 버린 비밀번호 링크가 만료되었습니다.",
+    "pt": "O link de senha esquecida expirou",
+    "es": "Contraseña olvidada el enlace expiró"
+  },
+   "invalidCode": {
+    "en":"Invalid forgotten password code Key",
+    "ja": "忘れたパスワードコードキーが無効です",
+    "zh-CN": "无效的忘记密码代码密钥",
+    "fr": "Code de mot de passe oublié invalide Clé",
+    "ko": "잊어 버린 비밀번호 코드가 잘못되었습니다. 키",
+    "pt": "Chave de código de senha esquecida inválida",
+    "es": "Clave de contraseña olvidada no válida"
+  },
+   "emailconfirm": {
+    "en":"Email confirm Successfully",
+    "ja": "メール確認成功",
+    "zh-CN": "电子邮件确认成功",
+    "fr": "Email confirmer avec succès",
+    "ko": "이메일 확인 성공",
+    "pt": "E-mail confirmado com sucesso",
+    "es": "Correo electrónico confirmar con éxito"
+  },
+   "emailconfirmed": {
+    "en":"Email already verified",
+    "ja": "メールアドレスは確認済みです",
+    "zh-CN": "电邮已经过验证",
+    "fr": "Email déjà vérifié",
+    "ko": "이미 확인 된 이메일",
+    "pt": "Email já verificado",
+    "es": "Correo electrónico ya verificado"
+  },
+   "invalidactiveCode": {
+    "en":"Invalid Activation Key",
+    "ja": "無効なアクティベーションキー",
+    "zh-CN": "激活密钥无效",
+    "fr": "Clé d'activation invalide",
+    "ko": "유효하지 않은 활성화 키",
+    "pt": "Chave de Ativação Inválida",
+    "es": "Clave de activación inválida"
+  },
+   "contactUpdate": {
+    "en":"Contact Details Updated Successfully",
+    "ja": "連絡先の詳細を更新しました",
+    "zh-CN": "联系详细信息已成功更新",
+    "fr": "Coordonnées mises à jour avec succès",
+    "ko": "세부 연락처 업데이트 완료",
+    "pt": "Detalhes de contato atualizados com sucesso",
+    "es": "Detalles de contacto actualizados con éxito"
+  },
+   "addressUpdate": {
+    "en":"User Address Updated Successfully",
+    "ja": "ユーザーアドレスを更新しました",
+    "zh-CN": "用户地址已成功更新",
+    "fr": "Adresse utilisateur mise à jour avec succès",
+    "ko": "사용자 주소가 성공적으로 업데이트되었습니다.",
+    "pt": "Endereço do usuário atualizado com sucesso",
+    "es": "Dirección de usuario actualizada con éxito"
+  },
+   "paymntsucess": {
+    "en":"Please be patience, Once payment will be confirmed - You will be able to access system",
+    "ja": "支払いが確認されたら、忍耐力を持ってください - あなたはシステムにアクセスできるようになります",
+    "zh-CN": "请耐心等待，一旦付款确认 - 您将可以访问系统",
+    "fr": "S'il vous plaît soyez patient, une fois le paiement sera confirmé - Vous pourrez accéder au système",
+    "ko": "인내심을 가져주십시오. 지불이 확정되면 시스템에 액세스 할 수 있습니다.",
+    "pt": "Por favor, seja paciência, Uma vez que o pagamento será confirmado - Você será capaz de acessar o sistema",
+    "es": "Por favor tenga paciencia, una vez que se confirme el pago - Usted podrá acceder al sistema"
+  },
+   "coinmaxlimit": {
+    "en":"Maximum coin buy limit is 1000",
+    "ja": "最大コイン購入限度額は1000です",
+    "zh-CN": "最大硬币购买限额为1000",
+    "fr": "La limite d'achat de pièces maximum est de 1000",
+    "ko": "최대 동전 구매 한도는 1000입니다.",
+    "pt": "O limite máximo de compra de moedas é de 1.000",
+    "es": "El límite máximo de compra de monedas es 1000"
+  },
+   "couponexpire": {
+    "en":"Coupon code expired.",
+    "ja": "クーポンコードの有効期限が切れました",
+    "zh-CN": "优惠券代码已过期",
+    "fr": "Le code de coupon a expiré",
+    "ko": "쿠폰 코드가 만료되었습니다.",
+    "pt": "Código de cupom expirado",
+    "es": "Código de cupón caducado"
+  },
+   "sponsorRequired": {
+    "en":"Coupon code already used.",
+    "ja": "クーポンコードは既に使用されています。",
+    "zh-CN": "优惠券代码已使用。",
+    "fr": "Code promo déjà utilisé.",
+    "ko": "쿠폰 코드가 이미 사용되었습니다.",
+    "pt": "Código de cupom já usado.",
+    "es": "Código de cupón ya utilizado."
+  },
+   "redeemsuccess": {
+    "en":"Vouchers redeem Successfully",
+    "ja": "バウチャーは正常に引き換えます",
+    "zh-CN": "代金券兑换成功",
+    "fr": "Les bons sont échangés avec succès",
+    "ko": "바우처가 성공적으로 사용되었습니다.",
+    "pt": "Vouchers resgatam com sucesso",
+    "es": "Los cupones se canjean con éxito"
+  },
+   "invalidcouopon": {
+    "en":"Coupon code invalid.",
+    "ja": "クーポンコードが無効です。",
+    "zh-CN": "优惠券代码无效。",
+    "fr": "Code de coupon invalide.",
+    "ko": "쿠폰 코드가 유효하지 않습니다.",
+    "pt": "Código de cupom inválido.",
+    "es": "Código de cupón no válido."
+  },
+   "lessbalance": {
+    "en":"You have not sufficient balance",
+    "ja": "あなたは十分なバランスがありません",
+    "zh-CN": "你没有足够的余额",
+    "fr": "Vous n'avez pas un solde suffisant",
+    "ko": "충분한 균형이 없습니다.",
+    "pt": "Você não tem saldo suficiente",
+    "es": "No tienes saldo suficiente."
+  },
+   "limitcom": {
+    "en":"Daily withdrawal limit completed",
+    "ja": "毎日の引き出し制限が完了しました",
+    "zh-CN": "每日提款限额已完成",
+    "fr": "Limite de retrait quotidien complétée",
+    "ko": "일일 출금 한도가 완료되었습니다.",
+    "pt": "Limite diário de retirada concluído",
+    "es": "Límite de retiro diario completado"
+  },
+   "decline": {
+    "en":"Request Decline Successfully",
+    "ja": "正常に拒否をリクエスト",
+    "zh-CN": "请求成功下降",
+    "fr": "Demander le refus avec succès",
+    "ko": "요청 거부",
+    "pt": "Solicitar Recusar com Sucesso",
+    "es": "Solicitud de declinación exitosa"
+  },
+   "friendNotFound": {
+    "en":"Friend request not found",
+    "ja": "友達リクエストが見つかりません",
+    "zh-CN": "未找到朋友请求",
+    "fr": "Demande d'ami non trouvée",
+    "ko": "친구 요청을 찾을 수 없습니다.",
+    "pt": "Pedido de amizade não encontrado",
+    "es": "Solicitud de amistad no encontrada"
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  },
+   "allsold": {
+    "en":"All coins are sold.",
+    "ja": "すべてのコインが売られています。",
+    "zh-CN": "所有硬币都卖了。",
+    "fr": "Toutes les pièces sont vendues.",
+    "ko": "모든 동전은 판매됩니다.",
+    "pt": "Todas as moedas são vendidas.",
+    "es": "Todas las monedas se venden."
+  }
+}

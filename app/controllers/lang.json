@@ -1,0 +1,128 @@
+{
+  "sucess": {
+    "en": "Success",
+    "ja": "成功",
+    "zh-CN": "成功",
+    "fr": "Le succès",
+    "ko": "성공",
+    "pt": "sucesso",
+    "es": "éxito"
+  },
+  "regsuccess": {
+    "en": "You have successfully signed up, please verify your email.",
+    "ja": "正常にサインアップしました。メールアドレスを確認してください。",
+    "zh-CN": "您已成功注册，请验证您的电子邮件。",
+    "fr": "Vous vous êtes inscrit avec succès, veuillez vérifier votre email.",
+    "ko": "성공적으로 가입 하셨으므로 이메일을 확인하십시오.",
+    "pt": "Você se inscreveu com sucesso, verifique seu e-mail.",
+    "es": "Se ha registrado correctamente, por favor verifique su correo electrónico."
+  },
+  "invalid": {
+    "en": "Invalid password!Please try again",
+    "ja": "無効なパスワードです！もう一度やり直してください",
+    "zh-CN": "密码无效！请重试",
+    "fr": "Mot de passe invalide, réessayez",
+    "ko": "잘못된 암호입니다! 다시 시도하십시오.",
+    "pt": "Senha inválida, por favor tente novamente",
+    "es": "Contraseña no válida, por favor vuelva a intentarlo"
+  },
+  "verify": {
+    "en": "Please verify your email",
+    "ja": "メールアドレスを確認してください",
+    "zh-CN": "请验证您的电子邮件",
+    "fr": "S'il vous plaît vérifier votre email",
+    "ko": "이메일을 확인하십시오.",
+    "pt": "Por favor, verifique seu email",
+    "es": "Por favor verifica tu email"
+  },
+  "email": {
+    "en":"Invalid Email! Please try again", 
+    "ja": "無効なメールです。 もう一度やり直してください",
+    "zh-CN": "不合规电邮！ 请再试一次",
+    "fr": "Email invalide! Veuillez réessayer",
+    "ko": "이메일이 잘못되었습니다! 다시 시도하십시오.",
+    "pt": "E-mail inválido! Por favor, tente novamente",
+    "es": "Email inválido ! Inténtalo de nuevo"
+  },
+  "deactivated": {
+    "en":"Your account has been deactivated!! Please send account activation request on info@uzyth.com",
+    "ja": "あなたのアカウントが無効になっています ！！ にアカウントの有効化リクエストを送信してください  info@uzyth.com",
+    "zh-CN": "您的帐户已停用!! 请发送帐户激活请求 info@uzyth.com",
+    "fr": "Votre compte a été désactivé !! S'il vous plaît envoyer une demande d'activation de compte sur info@uzyth.com",
+    "ko": "당신의 계정이 비활성화되었습니다 !! 에 계정 활성화 요청을 보내주십시오. info@uzyth.com",
+    "pt": "Sua conta foi desativada!! Por favor, envie um pedido de ativação de conta info@uzyth.com",
+    "es": "Tu cuenta ha sido desactivada!! Por favor envíe la solicitud de activación de cuenta en info@uzyth.com"
+  },
+  "existemail": {
+    "en":"Username/email already exist",
+    "ja": "ユーザー名/ Eメールアドレスは既に存在します",
+    "zh-CN": "用户名/电子邮件已存在",
+    "fr": "Le nom d'utilisateur / email existe déjà",
+    "ko": "사용자 이름 / 이메일이 이미 존재합니다.",
+    "pt": "Nome de usuário / email já existe",
+    "es": "Usuario / email ya existe"
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "スポンサー名が必要です",
+    "zh-CN": "需要赞助商名称",
+    "fr": "Nom du sponsor requis",
+    "ko": "스폰서 이름 필요",
+    "pt": "Nome do patrocinador requerido",
+    "es": "Nombre del patrocinador requerido"
+  },
+   "sponsorInvalid": {
+    "en":"Invalid sponsor name",
+    "ja": "無効なスポンサー名",
+    "zh-CN": "赞助商名称无效",
+    "fr": "Nom du sponsor invalide",
+    "ko": "잘못된 스폰서 이름",
+    "pt": "Nome do patrocinador inválido",
+    "es": "Nombre de patrocinador no válido"
+  },
+   "SecuritySuccess": {
+    "en":"Security Question Updated Successfully",
+    "ja": "セキュリティの質問が更新されました",
+    "zh-CN": "安全问题已成功更新",
+    "fr": "Question de sécurité mise à jour avec succès",
+    "ko": "보안 질문이 성공적으로 업데이트되었습니다.",
+    "pt": "Pergunta de segurança atualizada com sucesso",
+    "es": "Pregunta de seguridad actualizada con éxito"
+  },
+  "mailsent": {
+    "en":"Mail Sent successfully!!",
+    "ja": "メール送信成功",
+    "zh-CN": "邮件已成功发送",
+    "fr": "Mail envoyé avec succès",
+    "ko": "메일이 성공적으로 전송되었습니다.",
+    "pt": "Correio enviado com sucesso",
+    "es": "El correo enviado con éxito"
+  },
+   "invalidsrcode": {
+    "en":"Invalid Security Code",
+    "ja": "無効なセキュリティコード",
+    "zh-CN": "无效的安全码",
+    "fr": "Code de sécurité invalide",
+    "ko": "유효하지 않은 보안 코드",
+    "pt": "Código de segurança inválido",
+    "es": "Código de seguridad invalido"
+  },
+   "allrequired": {
+    "en":"All field required",
+    "ja": "全フィールド必須",
+    "zh-CN": "所有领域都需要",
+    "fr": "Tous les champs requis",
+    "ko": "필요한 모든 필드",
+    "pt": "Todo o campo requerido",
+    "es": "Todo el campo requerido"
+  },
+   "sponsorRequired": {
+    "en":"Sponsor name required",
+    "ja": "",
+    "zh-CN": "",
+    "fr": "",
+    "ko": "",
+    "pt": "",
+    "es": ""
+  }
+}
