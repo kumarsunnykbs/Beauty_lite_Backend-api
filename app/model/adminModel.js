@@ -16,9 +16,9 @@ const fs = require("fs");
 
 const AWS = require("aws-sdk");
 const { aWSCredentials } = require("../../utils/users.js");
-const USER_KEY = aWSCredentials.Access_Key; //'AKIATUGJAROHMYRTMSFC';
+const USER_KEY = aWSCredentials.Access_Key; 
 const USER_SECRET = "";
-// const USER_SECRET = aWSCredentials.Secret_Key//'yDEQMEsvlms0Ls3PccdnBb1PBGlJIshkjAevYTLh';
+
 const BUCKET_NAME = aWSCredentials.Bucket; //'uzyth';
 const reader = require("xlsx");
 var { v4: uuid } = require("uuid");
@@ -29,11 +29,7 @@ let s3bucket = new AWS.S3({
   secretAccessKey: USER_SECRET,
   Bucket: BUCKET_NAME,
 });
-// const { aWSCredentials } = require("../../utils/message")
-// const USER_KEY = aWSCredentials.Access_Key//'AKIATUGJAROHMYRTMSFC';
-// //const USER_SECRET = 'yDEQMEsvlms0Ls3PccdnBb1PBGlJIshkjAevYTLh/L';
-// const USER_SECRET = aWSCredentials.Secret_Key//'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';
-// const BUCKET_NAME = aWSCredentials.Bucket//'uzyth';
+
 
 bcypher = require("blockcypher");
 var bcapi = new bcypher("btc", "main", "1a9daeb78d924879a1d5a84391b6daef");
@@ -42,11 +38,6 @@ const { count } = require("console");
 const { exit } = require("process");
 const cryptr = new Cryptr("uzythSecure22v");
 
-// let s3bucket = new AWS.S3({
-//     accessKeyId: USER_KEY,
-//     secretAccessKey: USER_SECRET,
-//     Bucket: BUCKET_NAME,
-// });
 
 //Task object constructor
 var Admin = function (userData) {
@@ -99,33 +90,8 @@ Admin.addNft = function (nftData, result) {
     "insertedDatainsertedDatainsertedDatainsertedDatainsertedData",
     insertedData
   );
-  // return
-  // const nftIPFSData = {
-  //   name: nftData.title,
-  //   description: nftData.description,
-  //   image: nftData.filepath,
-  //   attributes: JSON.parse(nftData.json_meta_file),
-  // };
-  // request(
-  // {
-  //   url: "http://44.214.51.175:9005/save/ipfsData",
-  //   method: "POST",
-  //   headers: {
-  //     "content-type": "application/json",
-  //     // "API-KEY": "2P04TK6bzZffQznoJw3CIUHjykV",
-  //     // "API-KEY-SECRET": "d076d937eb14c0effa7ad37ede9a164b"
-  //   },
-  //   body: nftIPFSData,
-  //   json: true,
-  // },
-  // function (error, response, body) {
-  // console.log('responseresponseresponseresponseresponseresponse121212121',response);
-  // return
-  // if (response.body.nft_image || response.body.nft_uri) {
-  // insertedData.nft_ipfs_image = response.body.nft_image;
-  // insertedData.nft_ipfs_uri = response.body.nft_uri;
-  // console.log(insertedData, "insertedData>>>.djsjkbjchd6565");
-  // return;
+
+
   sql.query(
     "INSERT INTO `nft_data` SET ?",
     [insertedData],
@@ -643,47 +609,6 @@ Admin.nftBulkImport = async function (userData, result) {
   });
 };
 
-// async function bucket_data(image){
-//   try {
-//     let getFile = image;
-//     console.log('getFilegetFilegetFilegetFilegetFilegetFilegetFile',getFile);
-//     var fileData = getFile["data"];
-//     console.log("fileDataimageimageimageimageimage",image);
-
-//     console.log("fileDatafileDatafileDatafileDatafileDatafileData",fileData);
-//   return;
-//     const params = {
-//       Bucket: BUCKET_NAME + "/nft_data/" + image,
-//       Key: image,
-//       ACL: "public-read",
-//       Body: fileData,
-//     };
-//     const stored = await s3bucket.upload(params).promise()
-//     console.log(stored);
-//     return stored
-
-//   } catch (err) {
-//     console.log(err)
-//   }
-
-//   // s3bucket.createBucket(function () {
-//   //   var params = {
-//   //     Bucket: BUCKET_NAME + "/nft_data/" + image,
-//   //     Key: image,
-//   //     ACL: "public-read",
-//   //     Body: fileData,
-//   //   };
-//   //   console.log("params>>>>>", params);
-
-//   //   s3bucket.upload(params, function (err, data) {
-//   //     if (err) {
-//   //       console.log(err);
-//   //     }
-//   //     // console.log(data);
-//   //     return data;
-//   //   });
-//   // });
-// }
 
 Admin.addWallet = (params, result) => {
   var data = {};
