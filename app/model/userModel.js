@@ -13,7 +13,7 @@ var langJson = require("./lang.json");
 const Cryptr = require("cryptr");
 const cryptr = new Cryptr("uzythSecure22v");
 bcypher = require("blockcypher");
-var ashok_url = "http://18.190.113.58:9005";
+var ashok_url = "";
 var uuid = require("uuid");
 // var ashok_url = 'http://127.0.0.1:9005';
 
